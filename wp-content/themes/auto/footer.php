@@ -2,21 +2,21 @@
   <div class="container">
     <div class="footer__inner">
       <a class="logo" href="#">
-        <img class="logo__img" src="img/logo.svg" alt="logo">
+        <img class="logo__img" src="<?php bloginfo('template_url'); ?>/assets/img/logo.svg" alt="logo">
       </a>
 
       <div class="social footer__social">
         <a class="social__link" href="#">
-          <img class="social__img" src="img/icon/instagram.svg" alt="instagram icon">
+          <img class="social__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/instagram.svg" alt="instagram icon">
         </a>
         <a class="social__link" href="#">
-          <img class="social__img" src="img/icon/telegram.svg" alt="telegram icon">
+          <img class="social__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/telegram.svg" alt="telegram icon">
         </a>
         <a class="social__link" href="#">
-          <img class="social__img" src="img/icon/whatsapp.svg" alt="whatsapp icon">
+          <img class="social__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/whatsapp.svg" alt="whatsapp icon">
         </a>
         <a class="social__link" href="#">
-          <img class="social__img" src="img/icon/facebook.svg" alt="facebook icon">
+          <img class="social__img" src="<?php bloginfo('template_url'); ?>/assets/img/icon/facebook.svg" alt="facebook icon">
         </a>
       </div>
 
