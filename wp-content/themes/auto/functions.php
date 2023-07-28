@@ -27,8 +27,8 @@ wp_enqueue_script( 'main', get_template_directory_uri() .'/assets/js/main.js', a
 });
 
 add_theme_support('post-thumbnails');
-//add_theme_support('title-tag');
-//add_theme_support('custom-logo');
+add_theme_support('title-tag');
+add_theme_support('custom-logo');
 
 
 ?>
