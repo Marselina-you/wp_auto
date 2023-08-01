@@ -13,7 +13,14 @@
   <div class="container">
     <div class="header__top">
       <?php the_custom_logo(); ?>
-      <a class="phone" href="tel:+380505556677">+38 (050) 555 66 77</a>
+      <a class="phone" href="<?php the_field('phone', 7 ); ?>"> 
+     
+      <?php the_field('phone', 7 ); ?>
+        
+      </a>
+        
+        
+        
     </div>
     <div class="header__content">
       <h1 data-wow-delay=".5s" class="header__title wow animate__fadeInLeft">
