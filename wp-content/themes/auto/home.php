@@ -169,21 +169,22 @@ wp_reset_postdata(); // Сбрасываем $post
           <li class="contacts__item">
             <p class="contacts__item-title">Адрес</p>
             <p class="contacts__item-text">
-              Киев, Подол <br>
-              ул. Константиновская, д. 71
+             <?php the_field('address', 7); ?>
             </p>
           </li>
           <li class="contacts__item">
             <p class="contacts__item-title">Время работы</p>
             <p class="contacts__item-text">
-              Пн-Сб: с 9:00 до 19:00, <br>
-              Вс: выходной
+            <?php the_field('time-work', 7); ?>
             </p>
           </li>
           <li class="contacts__item">
             <p class="contacts__item-title">Телефон</p>
             <p class="contacts__item-text">
-              +38 (050) 555 66 77
+            <a href="tel:<?php the_field('phone', 7 ); ?>">
+            <?php the_field('phone-number', 7 ); ?></a> 
+     
+    
             </p>
           </li>
         </ul>
