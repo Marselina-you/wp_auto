@@ -55,7 +55,7 @@
           </svg>
         </a>
       </div>
-      <img data-wow-delay="2s" class="header__img wow animate__fadeInUpBig" src="<?php the_field('top-img', 7); ?>"
+      <img data-wow-delay="2s" class="header__images wow animate__fadeInUpBig" src="<?php the_field('top-img', 7); ?>"
         alt="ford mustang">
     </div>
   </div>
